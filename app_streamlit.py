@@ -11,7 +11,7 @@ st.title("🏢 AHU CO₂ Monitoring Dashboard")
 st.subheader(f"CO₂ Threshold: **{THRESHOLD} ppm**")
 
 # ===== STEP 1: Load Excel from GitHub =====
-GITHUB_RAW_URL = "https://raw.githubusercontent.com/<username>/<repo>/main/Master%20sheet.xlsx"
+GITHUB_RAW_URL = "https://raw.githubusercontent.com/naveenkumar921995-cmd/AHU_CO2_Dashboard/main/Master%20sheet.xlsx"
 
 try:
     df = pd.read_excel(GITHUB_RAW_URL)
